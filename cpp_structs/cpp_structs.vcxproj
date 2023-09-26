@@ -152,6 +152,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="cpp_structs.cpp" />
+    <ClCompile Include="WorkerManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="WorkerManager.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
